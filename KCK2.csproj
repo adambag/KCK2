@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="DALL·E 2023-12-10 04.46.35 - A simple background for a game titled %27Sword and Sandals%27, featuring a minimalistic design with a sword and a pair of sandals. The background should b.png" />
+    <None Remove="DALL·E 2023-12-10 04.56.14 - A simple background for a game%27s store page, in the same theme as the %27Sword and Sandals%27 game. The design should feature minimalistic ancient market .png" />
+    <None Remove="fight.png" />
+    <None Remove="main.png" />
+    <None Remove="resp.png" />
+    <None Remove="store.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="fight.png" />
+    <Resource Include="main.png" />
+    <Resource Include="store.png" />
+  </ItemGroup>
+
+</Project>
